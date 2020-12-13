@@ -1,0 +1,19 @@
+body {
+    background-color: #E9EFEB;
+    font-family: 'Quicksand', sans-serif;
+    color: #3B4C52;
+}
+
+/* .kamu {
+    background-color: #D3DFD7;
+    opacity: 1;
+} */
+
+.ikon {
+    width: 300px;
+}
+
+.btn-hitung {
+    background-color:#AB2F38;
+    border-color: #AB2F38;
+}
