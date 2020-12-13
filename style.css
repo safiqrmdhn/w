@@ -3,16 +3,21 @@ body {
     color: #3B4C52;
 }
 
-/* .kamu {
-    background-color: #D3DFD7;
-    opacity: 1;
-} */
-
 .ikon {
     width: 300px;
 }
 
-.btn-hitung {
-    background-color:#AB2F38;
-    border-color: #AB2F38;
+.btn-hitung, .btn-hitung:hover {
+    background-color:#FF4F5A;
+    border-color: #FF4F5A;
+}
+
+.github {
+    width: 10px;
+    height: auto;
+}
+
+#hasil {
+    color: #3B4C52;
+    border-radius: 5px;
 }
