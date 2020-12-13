@@ -31,29 +31,35 @@ $('#submit').on('click', function () {
 	var w = explode[1];
     
     var q = 0;
-        for(var i=1; i<=w; i++){
+        for(var i=1; i<w; i++){
             q = q+a[i];
         }
 
+        var zzz=10/4;
+        typeof zzz;
+        console.log(zzz);
     // if(explode[0]%4 == 0){
     //     var q = 366
     // }else{
     //     var q = 365
     // }
 
-    var b = q+explode[2];
+    var b = q+parseInt(explode[2]);
     
 	var c = (explode[0]-1)/4;
 
 	var d = (explode[0]+b+c)%7; // masehi
-
+    var xmasehi = Math.round(d)
     var e = (c+b)%5; // pasaran
+    var xpasaran = Math.round(e)
     
     var day = ["Jum'at","Sabtu","Minggu","Senin","Selasa","Rabu","Kamis"]
     var pasaran = ["Legi","Pahing","Pon","Wage","Kliwon"]
 
-    console.log(day[d])
-    console.log(pasaran[q])
+    console.log(pasaran[xpasaran])
+    console.log(day[xmasehi])
+    console.log(d)
+    console.log(e)
 
 
     $("#result").append(`                    

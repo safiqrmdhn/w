@@ -9,7 +9,7 @@
 <body>
 
 <div class="container-md mt-5 col-10">
-    <h1>Weton</h1>
+    <h1>Hitung</h1>
     <div class="card">
         <div class="card-body" >
             <form>
@@ -22,7 +22,7 @@
                 <div class="mb-3 row">
                     <label for="inputNama" class="col-sm-2 col-form-label">Tanggal</label>
                     <div class="col-sm-10">
-                        <input type="date" class="form-control" id="inputTanggal">
+                        <input type="text" class="form-control" id="inputTanggal">
                     </div>
                 </div>
                 <input type="button" value="Submit" id="submit" class="btn btn-primary" >
