@@ -114,7 +114,7 @@ $('#submit').on('click', function () {
          document.getElementById('nama-alert').innerHTML = "";
      }
      if (nama2 == 0) {			
-         document.getElementById('nama2-alert').innerHTML = "Waduh, pasanganmu kok kosong?";
+         document.getElementById('nama2-alert').innerHTML = "Waduhm pasanganmu kok kosong?";
          //return false;
      }else{
          document.getElementById('nama2-alert').innerHTML = "";
