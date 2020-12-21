@@ -1,3 +1,6 @@
+function test(){
+    console.log("asdasd");
+}
 
 function Hitung(x){
     var explode =x.split("-");
